@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body{
+    background-color: #F2C078 !important;
+}
+
+.bg-navbar{
+    background-color: #FAEDCA;
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 40px !important;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.navbarGreen{
+    color: #7EBC89 !important;
+}
+
+.navbarOrange{
+    color: #FE5D26 !important;
+}
+
+.wrapper {
+    text-align: center;
+}

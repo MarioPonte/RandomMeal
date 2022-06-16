@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
+    <nav class="navbar bg-navbar justify-content-center">
+        <div class="container-fluid-nav justify-content-center">
+          <span class="navbar-brand navbarOrange mb-0">Food</span><span class="navbar-brand navbarGreen mb-0">Side</span>
+        </div>
+    </nav>
     
-    <div class="container">
-        <div class="row text-center">
-            <h1>Felling Hungry?</h1>
-            <h5>Get a random meal by clicking below</h5>
-            <button class="button-primary" id="getMeal">Get Meal</button>
+    <div>
+        <div class="content">
+            <h1 class="randomTitle text-center">Felling Hungry?</h1>
+            <h5 class="text-center">Get a random meal by clicking below</h5>
+            <div class="wrapper">
+                <button class="buttonMeal" id="getMeal">Get Meal</button>
+            </div>
             <div id="meal" class="row meal"></div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

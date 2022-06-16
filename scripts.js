@@ -31,7 +31,7 @@ function createMeal(meal){
                 <p><strong>Category:</strong> ${meal.strCategory}</p>
                 <p><strong>Area:</strong> ${meal.strArea}</p>
                 <p><strong>Tags:</strong> ${meal.strTags}</p>
-                <h5>Ingredients:</h5>
+                <h5>Ingredients</h5>
                 <ul>
                     ${ingredients.map(ingredient => `
                         <li>${ingredient}</li>
@@ -41,6 +41,12 @@ function createMeal(meal){
             <div class="column seven">
                 <h4>${meal.strMeal}</h4>
                 <p>${meal.strInstructions}</p>
+            </div>
+        </div>
+        <div class="row">
+            <h5>Video Recipe</h5>
+            <div class="videoWrapper">
+                <iframe src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}" />
             </div>
         </div>
     `;
