@@ -28,3 +28,48 @@ body{
 .wrapper {
     text-align: center;
 }
+
+#getMeal{
+    background-color: #FAEDCA;
+    border: 2.8px solid #FE5D26;
+    border-radius: 100vw;
+    font-size: 24px;
+    font-family: 'Caveat Brush', cursive;
+    padding: 2px 22px 2px 22px;
+    color: #FE5D26;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.25s;
+}
+
+#getMeal:hover{
+    background-color: #FE5D26;
+    border: 2.8px solid #FAEDCA;
+    border-radius: 100vw;
+    font-size: 24px;
+    font-family: 'Caveat Brush', cursive;
+    padding: 2px 22px 2px 22px;
+    color: #FAEDCA;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#recipeImg{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.mealType{
+    text-align: left !important;
+    font-size: 12px;
+    line-height: 0.75;
+}
+
+.mealIngredients{
+    text-align: left !important;
+}
+
+.videoFrame{
+    width: 64vw;
+    height: 36vw;
+    border-radius: 10px;
+}
