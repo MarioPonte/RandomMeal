@@ -58,6 +58,12 @@ body{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+#recipeName{
+    font-size: 30px;
+    font-family: 'Caveat Brush', cursive;
+    margin-bottom: 50px;
+}
+
 .mealType{
     text-align: left !important;
     font-size: 12px;
@@ -68,8 +74,27 @@ body{
     text-align: left !important;
 }
 
+.instructionsMeal{
+    margin-top: 25px;
+}
+
 .videoFrame{
     width: 64vw;
     height: 36vw;
     border-radius: 10px;
+}
+
+.mealContent{
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 530px) {
+    #recipeImg{
+      width: 92vw;
+    }
+
+    #recipeName{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
 }

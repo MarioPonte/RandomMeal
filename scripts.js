@@ -25,13 +25,13 @@ function createMeal(meal){
 
 
     mealContainer.innerHTML = `
-        <div class="container text-center">
+        <div class="mealContent container text-center">
                 <div class="row">
                     <div class="col-sm">
                         <img id="recipeImg" src="${meal.strMealThumb}" alt="Meal Img" />
                     </div>
                     <div class="col-sm">
-                        <h4>${meal.strMeal}</h4>
+                        <h4 id="recipeName">${meal.strMeal}</h4>
                         <div class="mealType">
                             <p><strong>Category:</strong> ${meal.strCategory}</p>
                             <p><strong>Area:</strong> ${meal.strArea}</p>
@@ -49,7 +49,7 @@ function createMeal(meal){
                 </div>
                 <div class="row">
                     <div class="column seven">
-                        <p>${meal.strInstructions}</p>
+                        <p class="instructionsMeal">${meal.strInstructions}</p>
                         <h5>Video Recipe</h5>
                         <div class="videoWrapper">
                             <iframe class="videoFrame" src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}" />
