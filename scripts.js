@@ -21,14 +21,11 @@ function createMeal(meal){
         }
     }
 
-    console.log(ingredients);
-
-
     mealContainer.innerHTML = `
         <div class="mealContent container text-center">
                 <div class="row">
                     <div class="col-sm">
-                        <img id="recipeImg" src="${meal.strMealThumb}" alt="Meal Img" />
+                        <a href="${meal.strMealThumb}" target="_blank"><img id="recipeImg" src="${meal.strMealThumb}" alt="Meal Img" /></a>
                     </div>
                     <div class="col-sm">
                         <h4 id="recipeName">${meal.strMeal}</h4>

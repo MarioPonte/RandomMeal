@@ -72,6 +72,7 @@ body{
 
 .mealIngredients{
     text-align: left !important;
+    margin-top: 25px;
 }
 
 .instructionsMeal{
@@ -86,6 +87,22 @@ body{
 
 .mealContent{
     margin-top: 25px;
+}
+
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, .7);
+    position: fixed;
 }
 
 @media only screen and (max-width: 530px) {
